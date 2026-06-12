@@ -1,10 +1,13 @@
 import "./App.css";
-
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/Hero";
+//import {bio} from "./data/bio"
 
 function App() {
   return (
     <>
-      <h1 className= "text-3xl font-bold">Soy Erik Israel Cuevas Hernández</h1>
+    <Navbar/>
+    <Hero/>
     </>
   );
 }
