@@ -1,13 +1,16 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
-//import {bio} from "./data/bio"
+import ProjectSection from "./components/sections/ProjectSection";
+import Skills from "./components/sections/Skills";
 
 function App() {
   return (
     <>
     <Navbar/>
     <Hero/>
+    <ProjectSection/>
+    <Skills/>
     </>
   );
 }
