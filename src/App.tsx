@@ -7,10 +7,10 @@ import Skills from "./components/sections/Skills";
 function App() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <ProjectSection/>
-    <Skills/>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <ProjectSection />
     </>
   );
 }
