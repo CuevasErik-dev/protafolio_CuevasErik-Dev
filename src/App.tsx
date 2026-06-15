@@ -6,12 +6,21 @@ import Skills from "./components/sections/Skills";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
-      <Hero />
-      <Skills />
-      <ProjectSection />
-    </>
+      <div className="pt-20" id="inicio">
+        <Hero />
+      </div>
+      <div id="proyectos">
+        <ProjectSection />
+      </div>
+      <div id="habilidades">
+        <Skills />
+      </div>
+      <div id="contacto">
+
+      </div>
+    </div>
   );
 }
 
