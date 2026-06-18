@@ -1,1 +1,8 @@
-@import 'tailwindcss'
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px; /* Esto evita automáticamente que el navbar fijo tape tus títulos */
+}
