@@ -9,12 +9,12 @@ export default function CardProject({ title, description, createdAt }: props) {
         <>
             <div className="flex flex-col gap-2 pr-24">
 
-                <span className="text-xl md:text-2xl font-semibold tracking-tight text-slate-950 dark:text-zinc-50 transition-colors group-hover:text-blue-600 dark:group-hover:text-violet-400">
+                <span className="text-xl md:text-4xl font-semibold tracking-tight text-slate-950 dark:text-zinc-50 transition-colors group-hover:text-blue-600 dark:group-hover:text-violet-400">
                     {title}
                 </span>
 
 
-                <p className="text-sm font-normal leading-relaxed text-slate-600 dark:text-zinc-400">
+                <p className="text-base font-normal leading-relaxed text-slate-600 dark:text-zinc-400">
                     {description}
                 </p>
             </div>
