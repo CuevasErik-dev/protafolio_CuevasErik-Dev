@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ButtonTheme from "../ui/ButtonTheme";
+import Logo from "../ui/Logo";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ function Navbar() {
     return (
         <nav className="fixed top-0 left-0 z-50 w-full flex flex-col sm:flex-row justify-between p-4 bg-white dark:bg-zinc-900 border-slate-200 dark:border-zinc-800 border-b">
             <div className="flex justify-between items-center text-slate-900 dark:text-zinc-100 text-2xl w-full sm:w-auto">
-                <h2>EICH</h2>
+                <Logo/>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     className="sm:hidden block focus:outline-none"
@@ -48,7 +49,7 @@ function Navbar() {
                 <a 
                     href="#habilidades" 
                     onClick={handleCloseMenu}
-                    className="w-full sm:w-auto py-2 sm:py-0 hover:text-blue-500 dark:hover:text-blue-400"
+                    className="w-full sm:w-auto py-2 sm:py-0 hover:text-sky-500 dark:hover:text-indigo-400"
                 >
                     Skills
                 </a>
